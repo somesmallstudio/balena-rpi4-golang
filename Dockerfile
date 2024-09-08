@@ -1,8 +1,7 @@
 # BALENA_ARCH is aarch64 for RPi4 aka linux/arm64/v8 platform
-FROM balenalib/aarch-debian:bookworm-build
+FROM balenalib/aarch64-debian:bookworm-build
 
 # Find versions here: https://go.dev/dl/
-
 ENV GO_VERSION=1.23.1
 ENV GO_SUM=faec7f7f8ae53fda0f3d408f52182d942cc89ef5b7d3d9f23ff117437d4b2d2f
 ENV GOARCH=arm64
