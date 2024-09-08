@@ -52,9 +52,9 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/arm/v6
           push: true
-          tags: user/app:latest
+          tags: somesmallstudio/balena-rpi4-golang:latest
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
       # - name: Install cosign
